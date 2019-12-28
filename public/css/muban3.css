@@ -3,19 +3,10 @@
             padding: 0;
         }
         body{
-            height: 1100px;
-            background:url(/public/img/111.jpg); 
+            height: 900px;
+            background:url(/public/img/88.jpg); 
             cursor:url('/public/img/2.ico'),auto;
 
-        }
-        body::before {
-            content: '';
-            display: block;
-            width:100%;
-            height: inherit;
-            background: #fff;
-            opacity: 0.3;
-            position: absolute;
         }
         #head{
             width: 150px;
@@ -50,7 +41,7 @@
             left: 37%;
             top: 170px; 
        }
-        li{
+        .ll{
             width: 100px;
             height: 50px;
             display: inline-block;
@@ -61,58 +52,63 @@
             text-align: center;
             
         }
-        li a{
+        .ll a{
             font-size: 22px;
             text-decoration: none;
             color:#363636;
         }
-        li a:hover{
+        .ll a:hover{
             font-size: 25px;
             
         }
         #content{
             position: absolute;
             top: 260px;
-            left: 32%;
+            left: 25%;
             width: 60%;
             height: auto;
             /*border:2px solid black;*/
         }
 
 
-        ul li:nth-child(1){
+        #l1{
             border-bottom:2px solid #FFB6C1;
             transition: all 1s;
         }
-        ul li:nth-child(2){
+        #l2{
             border-bottom:2px solid #FFDEAD;
             transition: all 1s;
         }
-        ul li:nth-child(3){
+        #l3{
             border-bottom:2px solid #F0FFF0;
             transition: all 1s;
         }
-        ul li:nth-child(4){
+        #l4{
             border-bottom:2px solid #ADD8E6;
             transition: all 1s;
         }
-        ul li:nth-child(5){
+       #l5{
             border-bottom:2px solid #E6E6FA;
             transition: all 1s;
         }
 
-        ul li:nth-child(1):hover{
+        #l1:hover{
            background-color: #FFB6C1;
         }
-        ul li:nth-child(2):hover{
+        #l2:hover{
             background:#FFDEAD;
         }
-        ul li:nth-child(3):hover{
+        #l3:hover{
             background-color:#F0FFF0;
         }
-        ul li:nth-child(4):hover{
+        #l4:hover{
             background-color:#ADD8E6;
         }
-        ul li:nth-child(5):hover{
+        #l5:hover{
             background-color:#E6E6FA;
+        }
+        a{
+            text-decoration: none;
+            color: #8B475D;
+            font-size: 20px;
         }

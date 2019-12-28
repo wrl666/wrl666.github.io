@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/1.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/muban2.css">
+
+</head>
+<body>
+    <div id="all">
+        <div id="head">
+        </div>
+        <div id="name">汪小疯BLOG</div>
+        <div id="nav">
+            <ul>
+                <li><a href="/index.html">首页</a></li>
+                <li><a href="/cate.html">分类</a></li>
+               <!--  
+                <li><a href="#">css</a></li>
+                
+                <li><a href="#">js</a></li>
+                
+                <li><a href="#">jq</a></li>
+                 -->
+                <li><a href="/share.html">分享</a></li>
+                <li><a href="/dairy.html">每日一句</a></li>
+                <li><a href="#">留言</a></li>
+            </ul>
+        </div>
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <div class="left btn">&lt;</div>
+                <div class="year"></div>
+                <div class="right btn">&gt;</div>
+            </div>
+            <div class="calendar-body">
+                <div class="week-row">
+                    <div class="week box">日</div>
+                    <div class="week box">一</div>
+                    <div class="week box">二</div>
+                    <div class="week box">三</div>
+                    <div class="week box">四</div>
+                    <div class="week box">五</div>
+                    <div class="week box">六</div>
+                </div>
+                <div class="day-rows">
+                    <!--日期的渲染的地方-->
+                </div> 
+            </div>
+        </div>
+        <div id="content">
+            <p>CSS 为定位和浮动提供了一些属性，利用这些属性，可以建立列式布局，将布局的一部分与另一部分重叠，还可以完成多年来通常需要使用多个表格才能完成的任务。<br /><br /></p>
+
+<h2 id="定位">定位：</h2>
+<p>绝对定位：position:absolute<br />
+（1）如果没有TRBL，以父级的左上角，在没有父级的时候，他是参照浏览器左上角<br />
+（2）如果设定TRBL，并且父级没有设定position 属性，那么以浏览器左上角为原始点进行定位，位置将由TRBL 决定。<br /> （3）如果设定TRBL，并且父级设定position 属性(无论是absolute 还是relative)，则以父级的左上角为原点进行定位，位置由TRBL 决定。<br /><br /></p>
+
+<p>相对定位：position:relative <br />
+无论父级存在不存在，无论有没有TRBL，均是以父级的左上角进行定位.<br />
+如果父级有Padding 属性，那么就以内容区域的左上角为原点，进行定位。<br /></p>
+
+<p>如果用position来布局页面，父级元素的position属性必须为relative，而定位于父级内部某个位置的元素，最好用absolute布局页面
+定位尽量使用Float为主 ，Position为辅<br /><br /></p>
+
+<h2 id="布局">布局：</h2>
+<p>圣杯布局 双飞翼布局
+双飞翼布局和圣杯布局相同点在于让三列进行浮动实现    然后设置外边距为负值<br /><br /></p>
+
+<h2 id="边距问题">边距问题：</h2>
+<p>（1）任何图片都会存在一默认3px的下边距，解决方案display: block; 或者vertical-align: top<br />
+（2）margin改变边界不改变位置，只有position能改变位置<br />
+（3）父子嵌套关系，子标签有margin-top,父标签也会跟着动 解决方案：给父级加边框 不好 因为添加了多余的样式;  <br />  父级overflow: auto; <br /></p>
+
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="/public/js/calendar.js"></script>
+    <script type="text/javascript" src="/public/js/name.js"></script>
+</body>
+</html>

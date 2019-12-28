@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/1.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/muban2.css">
+
+</head>
+<body>
+    <div id="all">
+        <div id="head">
+        </div>
+        <div id="name">汪小疯BLOG</div>
+        <div id="nav">
+            <ul>
+                <li><a href="/index.html">首页</a></li>
+                <li><a href="/cate.html">分类</a></li>
+               <!--  
+                <li><a href="#">css</a></li>
+                
+                <li><a href="#">js</a></li>
+                
+                <li><a href="#">jq</a></li>
+                 -->
+                <li><a href="/share.html">分享</a></li>
+                <li><a href="/dairy.html">每日一句</a></li>
+                <li><a href="#">留言</a></li>
+            </ul>
+        </div>
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <div class="left btn">&lt;</div>
+                <div class="year"></div>
+                <div class="right btn">&gt;</div>
+            </div>
+            <div class="calendar-body">
+                <div class="week-row">
+                    <div class="week box">日</div>
+                    <div class="week box">一</div>
+                    <div class="week box">二</div>
+                    <div class="week box">三</div>
+                    <div class="week box">四</div>
+                    <div class="week box">五</div>
+                    <div class="week box">六</div>
+                </div>
+                <div class="day-rows">
+                    <!--日期的渲染的地方-->
+                </div> 
+            </div>
+        </div>
+        <div id="content">
+            <p>JavaScript 变量是存储数据值的容器。<br />
+JavaScript 函数是被设计为执行特定任务的代码块。<br />
+JavaScript 函数会在某代码调用它时被执行。<br /></p>
+
+<p>（1）变量：
+全局变量：
+1.在函数外定义
+2.在任何地方都可以访问
+3.若变量定义不写var，则不管变量位置在哪，都为全局变量</p>
+
+<p>局部变量：在函数内用var定义</p>
+
+<p>声明变量：
+1.var如果变量定义与赋值的语句位置在很多语句后面，则会默认先定义变量在执行语句在给变量赋值
+2.let作用范围为：在函数中从定义的位置开始到函数结束</p>
+
+<p>（2）函数：
+函数套函数时：父层中定义的局部变量，可以在子层中使用
+each函数：function each (start,length,callback)</p>
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="/public/js/calendar.js"></script>
+    <script type="text/javascript" src="/public/js/name.js"></script>
+</body>
+</html>
