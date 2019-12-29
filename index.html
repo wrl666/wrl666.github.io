@@ -12,11 +12,11 @@ layout: index
         </a>
     </div>
     <div id="article_content">
-                      <a href="#"><h1>{{post.title}}</h1></a>
+                      <a href="{{post.url}}"><h1>{{post.title}}</h1><br></a>
 	                  <p>{{post.excerpt}}</p>
 	         <a id="read" href="{{post.url}}">阅读全文</a>
 	    </div>
-</div>
+</div><br>
 {% endfor %}
 
 
@@ -24,7 +24,7 @@ layout: index
  	{% if paginator.previous_page_path %}
             <a href="{{ paginator.previous_page_path }}" class="leftt"><i></i>previous</a>
             {% else %}
-            <a href="javascript:void(0)" class="leftt"><i></i>previous</a>
+            <a href="javascript:void(0)" class="leftt"><i></i>previous </a>
             {% endif %}
 
     {% if paginator.next_page_path %}

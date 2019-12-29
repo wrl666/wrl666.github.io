@@ -3,7 +3,7 @@
             padding: 0;
         }
         body{
-            height: auto;
+            height: 1920px;
             background:url(/public/img/88.jpg); 
             cursor:url('/public/img/2.ico'),auto;
 
@@ -21,7 +21,7 @@
             width: 150px;
             height: 150px;
             border-radius:50%;
-            background: url(/public/img/5.jpg);
+            background: url(/public/img/tx3.jpg);
             position: relative;
             background-size: 100% 100%;
             border-radius: 50%;
@@ -165,31 +165,33 @@
             border-bottom: 20px;
             background-color: #12b7de; 
             color: #fff;
-            padding: 3px 10px;
-            border-radius: 3px;
+            padding: 5px 15px;
+            border-radius: 18px;
         }
           #fenye{
             position:fixed; 
-            bottom:25px;
-            left:40px;
+            bottom:20px;
+            left:60px;
             width:100%; 
             z-index:999;
 
         }
         .rightt{
             /*width: 300px;*/
-            
+            bottom:20px;
             /*border: 1px solid pink;*/
-            margin-left: 85%; 
+            margin-left: 65%; 
             /*font-family: 华文行楷;*/
             font-size: 30px;
-             background-color: #ADD8E6;
+             /*background-color: #12b7de;*/
+             /*color: #fff;*/
         }
         .leftt{
             /*font-family: 翩翩体-简;*/
             font-size: 30px;
-             background-color: #ADD8E6;
+             /*background-color: #ADD8E6;*/
         }
         #fenye a{
             font-family: 翩翩体-简;
         }
+      

@@ -21,7 +21,7 @@
             width: 150px;
             height: 150px;
             border-radius:50%;
-            background: url(/public/img/5.jpg);
+            background: url(/public/img/tx3.jpg);
             position: relative;
             background-size: 100% 100%;
             border-radius: 50%;
@@ -116,3 +116,26 @@
         ul li:nth-child(5):hover{
             background-color:#E6E6FA;
         }
+         .tubiao{
+            position: absolute;
+            top: 140px;
+            left: 800px;
+            /*margin-left: 50px; */
+            }
+        #a2{
+            width: 60px;
+            height: 60px;
+            background: url(/public/img/tt3.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            position: relative;
+            /*left: 1010px;
+            top: 20px;*/
+            /*z-index: 100;*/
+            transition: all .5s;
+        }
+    .hao1{
+        height: 60px;
+        width: 60px;
+        margin-left: 30px;
+    }
